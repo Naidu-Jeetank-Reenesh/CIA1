@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="Company">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Employee" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+
+							<xs:element name="Emp-ID" type="ID">
+							</xs:element>
+
+							<xs:element name="Emp-Name" type="xs:string">
+							</xs:element>
+							
+							<xs:element name="Emp-Age" type="xs:integer">
+							</xs:element>
+
+							<xs:element name="Emp-Salary" type="Sal_limit">
+							</xs:element>
+ 
+							<xs:element name="Emp-Email_ID" type="xs:string">
+							</xs:element>
+
+							<xs:element name="Emp-PhoneNum" type="Contact_Number">
+							</xs:element>
+
+							<xs:element name="Emp-Designation" type="xs:string">
+							</xs:element>
+
+							<xs:element name="Emp-Promotion" type="xs:string">
+							</xs:element>
+
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+					
+			
+						
+			 <xs:attribute name="ID" use="required">
+                <xs:simpleType>
+                    <xs:restriction base="xs:integer">
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+
+					<xs:simpleType name="Sal_limit">
+						<xs:restriction base="xs:integer">
+							<xs:minInclusive value="50000"></xs:minInclusive>
+							<xs:maxInclusive value="200000"></xs:maxInclusive>
+						</xs:restriction>
+					</xs:simpleType>
+					
+					<xs:simpleType name="Contact_Number">
+						<xs:restriction base="xs:integer">
+						<xs:minInclusive value="1000000000"></xs:minInclusive>
+						<xs:maxInclusive value="9999999999"></xs:maxInclusive>
+					</xs:restriction>
+					</xs:simpleType>
+
+</xs:schema>

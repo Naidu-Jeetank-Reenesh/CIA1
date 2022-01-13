@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ems.xsl" ?>
+
+<Company xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../RemoteSystemsTempFiles/demo.xsd">
+  
+  <Employee>
+    <Emp-ID>01</Emp-ID>
+    <Emp-Name>Jeetank Naidu</Emp-Name>
+    <Emp-Age>21</Emp-Age>
+    <Emp-Salary>65000</Emp-Salary>
+    <Emp-Email_ID>jrn@gmail.com</Emp-Email_ID>
+    <Emp-PhoneNum>9345127680</Emp-PhoneNum>
+    <Emp-Designation>IT Analyst</Emp-Designation>
+    <Emp-Promotion> </Emp-Promotion>
+  </Employee>
+ 
+   <Employee>
+    <Emp-ID>02</Emp-ID>  
+    <Emp-Name>Kanak Singh</Emp-Name>
+    <Emp-Age>45</Emp-Age>
+    <Emp-Salary>100000</Emp-Salary>
+    <Emp-Email_ID>ks@yahoo.in</Emp-Email_ID>
+    <Emp-PhoneNum>9876543210</Emp-PhoneNum>
+    <Emp-Designation>Senior Software Engineer</Emp-Designation>
+    <Emp-Promotion> </Emp-Promotion>
+  </Employee>
+
+
+    <Employee>
+    <Emp-ID>03</Emp-ID>
+    <Emp-Name>Chris Philips</Emp-Name>
+    <Emp-Age>52</Emp-Age>
+    <Emp-Salary>150000</Emp-Salary>
+    <Emp-Email_ID>cp3@gmail.com</Emp-Email_ID>
+    <Emp-PhoneNum>9753186421</Emp-PhoneNum>
+    <Emp-Designation>System Architect</Emp-Designation>
+    <Emp-Promotion> </Emp-Promotion>
+  </Employee>
+
+    <Employee>
+    <Emp-ID>04</Emp-ID>    
+    <Emp-Name>Sayali Baxy</Emp-Name>
+    <Emp-Age>29</Emp-Age>
+    <Emp-Salary>75000</Emp-Salary>
+    <Emp-Email_ID>sbaxy@yahoo.in</Emp-Email_ID>
+    <Emp-PhoneNum>9543218760</Emp-PhoneNum>
+    <Emp-Designation>Web Administrator</Emp-Designation>
+    <Emp-Promotion> </Emp-Promotion>
+  </Employee>
+
+
+
+
+</Company>
